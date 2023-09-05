@@ -1,50 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-  
-  <link rel="stylesheet" href="style.css">
-  <link rel="canonical" href="https://Sergio-E-Zanotto.github.io/"/>
+# Sergio Eugenio Zanotto
 
-</head>
+[Link to My GitHub Page](https://Sergio-E-Zanotto.github.io/)
 
+## Overview
 
-<body>
-<header class="site-header">
-  <div class="wrapper">
-    <span><a class="header_title" href="index.html">
-          Sergio Eugenio Zanotto
-    </a></span>
-    <nav class="site-nav">
-      <a href="#" class="menu-icon"></a>
+I am a PhD candidate in Linguistics and an Independent Doctoral Fellow at the Cluster of Excellence "The Politics of Inequality," University of Konstanz. My research focuses on the creation and analysis of a corpus of Italian political discourses, aiming to understand which linguistic features are more relevant in attracting political preferences among different strata of the population.
 
-      <div class="menu">
-        <a class="page-link" href="Sergio-E-Zanotto.github.io">
-            Home
-        </a>
-        <a class="page-link" href="https://Sergio-E-Zanotto.github.io/PubTalk">
-            Publications & Talks
-        </a>
-        <a class="page-link" href="https://Sergio-E-Zanotto.github.io/Teach">
-            Teaching
-        </a>
-        <div class="page-content">
-      <div class="wrapper">
-        <div class="home">
-          <img
-            src="https://Sergio-E-Zanotto.github.io/Phot.png"
-            alt="profile picture"
-            class="profile-pic"
-          />
-        </div>
-      </div>
-    </div>
-    </nav>
-  </div>
-</header>
-<div>
-    <p>I Started my PhD in October 2021 as a PhD candidate in Linguistics and an Independent Doctoral Fellow at the Cluster of Excellence "The Politics of Inequality", University of Konstanz.</p>
-    <p style="margin-bottom:1cm;">
-    <p>My work implies the creation and the analysis of a corpus of Italian political discourses. I would like to shed lights on which linguistic features are more relevant in attracting political preferences among different strata of the population.</p>
-</div>
-</body>
-</html>
+## Navigation
+
+- [Home](https://Sergio-E-Zanotto.github.io)
+- [Publications & Talks](https://Sergio-E-Zanotto.github.io/PubTalk)
+- [Teaching](https://Sergio-E-Zanotto.github.io/Teach)
