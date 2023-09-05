@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-  <link rel="stylesheet" href="https://qi-yu.github.io/assets/css/main.css"/>
-  <link rel="stylesheet" href="https://qi-yu.github.io/assets/css/custom.css"/>
+  
+  <link rel="stylesheet" href="style.css">
   <link rel="canonical" href="https://Sergio-E-Zanotto.github.io/"/>
 
 </head>
