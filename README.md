@@ -1,6 +1,5 @@
 # Sergio Eugenio Zanotto
 
-[Link to My GitHub Page](https://Sergio-E-Zanotto.github.io/)
 
 ## Who I am
 
