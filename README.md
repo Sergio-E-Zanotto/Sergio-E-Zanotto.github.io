@@ -12,5 +12,5 @@ My research focuses on the creation and analysis of a corpus of Italian politica
 ## Navigation
 
 - [Home](https://Sergio-E-Zanotto.github.io)
-- [Publications & Talks](https://Sergio-E-Zanotto.github.io/PubTalk)
-- [Teaching](https://Sergio-E-Zanotto.github.io/Teach)
+- [Publications & Talks](https://Sergio-E-Zanotto.github.io/docs/PubTalk)
+- [Teaching](https://Sergio-E-Zanotto.github.io/docs/Teach)
