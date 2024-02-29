@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Topic Classification Task</title>
+</head>
+<body>
+    <form id="mturk-form" action="https://www.mturk.com/mturk/externalSubmit" method="post">
+        <input type="hidden" name="assignmentId" value="" />
+        <!-- Add a hidden input field to hold the serialized JSON of selected topics -->
+        <input type="hidden" id="selectedTopics" name="selectedTopics" value="" />
+
+        <h1>Survey Questions</h1>
+        <p>Please read each statement and select all topics that you think are applicable.</p>
+
+        <!-- Question 1 -->
+        <fieldset>
+            <legend>Question 1: Which technologies will impact our future the most?</legend>
+            <label><input type="checkbox" name="Q1" value="Artificial Intelligence"> Artificial Intelligence</label><br>
+            <label><input type="checkbox" name="Q1" value="Blockchain"> Blockchain</label><br>
+            <label><input type="checkbox" name="Q1" value="Quantum Computing"> Quantum Computing</label><br>
+        </fieldset>
+
+        <!-- Question 2 -->
+        <fieldset>
+            <legend>Question 2: What are the major health challenges worldwide?</legend>
+            <label><input type="checkbox" name="Q2" value="Pandemics"> Pandemics</label><br>
+            <label><input type="checkbox" name="Q2" value="Mental Health"> Mental Health</label><br>
+            <label><input type="checkbox" name="Q2" value="Chronic Diseases"> Chronic Diseases</label><br>
+        </fieldset>
+
+        <!-- Question 3 -->
+        <fieldset>
+            <legend>Question 3: What sectors should people invest in for long-term growth?</legend>
+            <label><input type="checkbox" name="Q3" value="Technology"> Technology</label><br>
+            <label><input type="checkbox" name="Q3" value="Healthcare"> Healthcare</label><br>
+            <label><input type="checkbox" name="Q3" value="Renewable Energy"> Renewable Energy</label><br>
+        </fieldset>
+
+        <!-- Question 4 -->
+        <fieldset>
+            <legend>Question 4: What are the key components of a sustainable lifestyle?</legend>
+            <label><input type="checkbox" name="Q4" value="Reducing Waste"> Reducing Waste</label><br>
+            <label><input type="checkbox" name="Q4" value="Sustainable Transportation"> Sustainable Transportation</label><br>
+            <label><input type="checkbox" name="Q4" value="Plant-based Diet"> Plant-based Diet</label><br>
+        </fieldset>
+
+        <!-- Question 5 -->
+        <fieldset>
+            <legend>Question 5: What are effective ways to improve mental health?</legend>
+            <label><input type="checkbox" name="Q5" value="Regular Exercise"> Regular Exercise</label><br>
+            <label><input type="checkbox" name="Q5" value="Mindfulness and Meditation"> Mindfulness and Meditation</label><br>
+            <label><input type="checkbox" name="Q5" value="Adequate Sleep"> Adequate Sleep</label><br>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        document.getElementById('mturk-form').assignmentId.value = new URLSearchParams(window.location.search).get('assignmentId');
+
+        document.getElementById('mturk-form').onsubmit = function() {
+            // Collect responses from all questions
+            var responses = {};
+            ['Q1', 'Q2', 'Q3', 'Q4', 'Q5'].forEach(function(question) {
+                var selectedOptions = [];
+                document.querySelectorAll(`input[name="${question}"]:checked`).forEach(function(checkbox) {
+                    selectedOptions.push(checkbox.value);
+                });
+                responses[question] = selectedOptions;
+            });
+            document.getElementById('selectedTopics').value = JSON.stringify(responses);
+        };
+    </script>
+</body>
+</html>
