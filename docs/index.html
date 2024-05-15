@@ -1,45 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sergio Eugenio Zanotto</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    .profile-pic {
-      max-width: 150px;
-      border-radius: 50%;
-      display: block;
-      margin: 20px auto;
-    }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    .navigation a {
-      display: block;
-      color: #0066cc;
-      text-decoration: none;
-      margin: 10px 0;
-    }
-    .profile {
-      text-align: center;
-    }
-    .profile h1, .profile h2 {
-      color: #0066cc;
-    }
-  </style>
 </head>
 <body>
-<header class="site-header">
-  <div class="wrapper">
-    <span><a class="header_title" href="index.html">Sergio Eugenio Zanotto</a></span>
+  <header class="site-header">
+    <a class="header_title" href="index.html">Sergio Eugenio Zanotto</a>
     <nav class="site-nav">
-      <a href="#" class="menu-icon"></a>
+      <a href="#" class="menu-icon">☰</a>
       <div class="menu">
         <a class="page-link" href="https://Sergio-E-Zanotto.github.io">Home</a>
         <a class="page-link" href="https://Sergio-E-Zanotto.github.io/docs/PubTalk.md">Publications & Talks</a>
@@ -47,29 +18,36 @@
         <a class="page-link" href="https://www.exc.uni-konstanz.de/en/ungleichheit/ueber-uns/personen/alle-clustermitglieder/zanotto-sergio-eugenio/" target="_blank">Work Website</a>
       </div>
     </nav>
+  </header>
+  <div class="wrapper">
+    <div class="container">
+      <div class="profile">
+        <img src="https://Sergio-E-Zanotto.github.io/docs/Phot.png" alt="Sergio Eugenio Zanotto" class="profile-pic">
+        <h1>Sergio Eugenio Zanotto</h1>
+        <h2>PhD Candidate in Linguistics</h2>
+        <h3>Independent Doctoral Fellow at the Cluster of Excellence "The Politics of Inequality," University of Konstanz</h3>
+      </div>
+      
+      <h2>Who I am</h2>
+      <p>I started my PhD in October 2021 as a PhD candidate in Linguistics and an Independent Doctoral Fellow at the Cluster of Excellence "The Politics of Inequality," University of Konstanz.</p>
+      
+      <h2>My Interests</h2>
+      <p>My work involves the creation and analysis of a corpus of Italian political discourses. I aim to understand which linguistic features are more relevant in attracting political preferences among different strata of the population.</p>
+      
+      <h2>Navigation</h2>
+      <div class="navigation">
+        <a href="https://Sergio-E-Zanotto.github.io">Home</a>
+        <a href="https://Sergio-E-Zanotto.github.io/docs/PubTalk.md">Publications & Talks</a>
+        <a href="https://Sergio-E-Zanotto.github.io/docs/Teach.md">Teaching</a>
+        <a href="https://www.exc.uni-konstanz.de/en/ungleichheit/ueber-uns/personen/alle-clustermitglieder/zanotto-sergio-eugenio/" target="_blank">Work Website</a>
+      </div>
+    </div>
   </div>
-</header>
-<div class="container">
-  <div class="profile">
-    <img src="https://Sergio-E-Zanotto.github.io/docs/Phot.png" alt="Sergio Eugenio Zanotto" class="profile-pic">
-    <h1>Sergio Eugenio Zanotto</h1>
-    <h2>PhD Candidate in Linguistics</h2>
-    <h3>Independent Doctoral Fellow at the Cluster of Excellence "The Politics of Inequality," University of Konstanz</h3>
-  </div>
-  
-  <h2>Who I am</h2>
-  <p>I started my PhD in October 2021 as a PhD candidate in Linguistics and an Independent Doctoral Fellow at the Cluster of Excellence "The Politics of Inequality," University of Konstanz.</p>
-  
-  <h2>My Interests</h2>
-  <p>My work involves the creation and analysis of a corpus of Italian political discourses. I aim to understand which linguistic features are more relevant in attracting political preferences among different strata of the population.</p>
-  
-  <h2>Navigation</h2>
-  <div class="navigation">
-    <a href="https://Sergio-E-Zanotto.github.io">Home</a>
-    <a href="https://Sergio-E-Zanotto.github.io/docs/PubTalk.md">Publications & Talks</a>
-    <a href="https://Sergio-E-Zanotto.github.io/docs/Teach.md">Teaching</a>
-    <a href="https://www.exc.uni-konstanz.de/en/ungleichheit/ueber-uns/personen/alle-clustermitglieder/zanotto-sergio-eugenio/" target="_blank">Work Website</a>
-  </div>
-</div>
+
+  <script>
+    document.querySelector('.menu-icon').addEventListener('click', function() {
+      document.querySelector('.menu').classList.toggle('open');
+    });
+  </script>
 </body>
 </html>
