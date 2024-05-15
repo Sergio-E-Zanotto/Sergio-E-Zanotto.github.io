@@ -89,3 +89,27 @@ a:hover {
         display: block;
     }
 }
+
+/* Profile styles */
+.profile {
+    text-align: center;
+}
+
+.profile-pic {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+h1, h2, h3 {
+    color: #0066cc;
+}
+
+.navigation a {
+    display: block;
+    color: #0066cc;
+    text-decoration: none;
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
