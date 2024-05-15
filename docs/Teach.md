@@ -1,7 +1,7 @@
 # Sergio-E-Zanotto 
 
 
-##Teachings
+## Teachings
 
 Master Degree in Speech Language Processing, Department of Linguistics, Summer Semester 2024, **Lecturer in “Corpus Linguistics”**, University of Konstanz
 
