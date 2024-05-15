@@ -3,52 +3,113 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sergio Eugenio Zanotto</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Sergio Eugenio Zanotto - Home</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/clean-blog.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="header_title" href="index.html">Sergio Eugenio Zanotto</a>
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">☰</a>
-      <div class="menu">
-        <a class="page-link" href="index.html">Home</a>
-        <a class="page-link" href="PubTalk.md">Publications & Talks</a>
-        <a class="page-link" href="Teach.md">Teaching</a>
-        <a class="page-link" href="https://www.exc.uni-konstanz.de/en/ungleichheit/ueber-uns/personen/alle-clustermitglieder/zanotto-sergio-eugenio/" target="_blank">Work Website</a>
-      </div>
-    </nav>
-  </header>
-  <div class="wrapper">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <div class="profile">
-        <img src="Phot.png" alt="Sergio Eugenio Zanotto" class="profile-pic">
-        <h1>Sergio Eugenio Zanotto</h1>
-        <h2>PhD Candidate in Linguistics</h2>
-        <h3>Independent Doctoral Fellow at the Cluster of Excellence "The Politics of Inequality," University of Konstanz</h3>
+      <a class="navbar-brand" href="index.html">Sergio Eugenio Zanotto</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="PubTalk.md">Publications & Talks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Teach.md">Teaching</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.exc.uni-konstanz.de/en/ungleichheit/ueber-uns/personen/alle-clustermitglieder/zanotto-sergio-eugenio/" target="_blank">Work Website</a>
+          </li>
+        </ul>
       </div>
-      
-      <h2>Who I am</h2>
-      <p>I started my PhD in October 2021 as a PhD candidate in Linguistics and an Independent Doctoral Fellow at the Cluster of Excellence "The Politics of Inequality," University of Konstanz.</p>
-      
-      <h2>My Interests</h2>
-      <p>My work involves the creation and analysis of a corpus of Italian political discourses. I aim to understand which linguistic features are more relevant in attracting political preferences among different strata of the population.</p>
-      
-      <h2>Navigation</h2>
-      <div class="navigation">
-        <a href="index.html">Home</a>
-        <a href="PubTalk.md">Publications & Talks</a>
-        <a href="Teach.md">Teaching</a>
-        <a href="https://www.exc.uni-konstanz.de/en/ungleichheit/ueber-uns/personen/alle-clustermitglieder/zanotto-sergio-eugenio/" target="_blank">Work Website</a>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>Sergio Eugenio Zanotto</h1>
+            <span class="subheading">PhD Candidate in Linguistics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <h2>Who I am</h2>
+        <p>I started my PhD in October 2021 as a PhD candidate in Linguistics and an Independent Doctoral Fellow at the Cluster of Excellence "The Politics of Inequality," University of Konstanz.</p>
+        <h2>My Interests</h2>
+        <p>My work involves the creation and analysis of a corpus of Italian political discourses. I aim to understand which linguistic features are more relevant in attracting political preferences among different strata of the population.</p>
       </div>
     </div>
   </div>
 
-  <script>
-    document.querySelector('.menu-icon').addEventListener('click', function() {
-      document.querySelector('.menu').classList.toggle('open');
-    });
-  </script>
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="text-muted text-center">© Sergio Eugenio Zanotto 2024</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
 </body>
 </html>
+
 
