@@ -3,7 +3,7 @@
 
 ## Who I am
 
-I am a PhD candidate in Linguistics and an Independent Doctoral Fellow at the Cluster of Excellence "The Politics of Inequality," University of Konstanz.
+I am a PhD candidate in Linguistics and an [Independent Doctoral Fellow](https://www.exc.uni-konstanz.de/en/ungleichheit/ueber-uns/personen/alle-clustermitglieder/zanotto-sergio-eugenio/) at the Cluster of Excellence "The Politics of Inequality," University of Konstanz.
 
 ## My Interests
 
