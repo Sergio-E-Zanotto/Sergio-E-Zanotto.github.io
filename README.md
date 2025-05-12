@@ -2,11 +2,11 @@
 
 ## Who I am
 
-I am a PhD candidate in Linguistics and an Independent Doctoral Fellow at the Cluster of Excellence “The Politics of Inequality,” University of Konstanz.
+I am a PhD candidate in Linguistics and an Independent Doctoral Fellow at the Cluster of Excellence “The Politics of Inequality”, University of Konstanz.
 
 ## My Interests
 
-My research focuses on the creation and analysis of a corpus of Italian political discourses, aiming to understand which linguistic features are more relevant in attracting political preferences among different strata of the population.
+My research interests are at the intersection between politics and language use: I analyze political communication in social media and institutional contexts with computational methods. In my dissertation, “Profiling Populism in Political Texts”, I analyze populism as a political style, examining linguistic complexity in populist rhetoric, appeals to different social groups, and the registers that characterize populist discourse.
 
 ## Navigation
 
